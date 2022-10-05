@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <link href="stylePagIniciarMixOp1.css" rel="stylesheet">
+    <title>Página de Pacientes</title>
+</head>
+<body>
+    <header class="barra">
+        <div id="title"> 
+            <img src="./imagens/logoProjeto.png" alt="logo projeto" >
+           <!--<h1>LOGO</h1>--> 
+        </div>
+        <ul class="header-menu">
+            <a href="/PaginaPacientes1.html"><li>PACIENTES</li></a>
+            <a href="/PaginaMedicamentos.html"><li>MEDICAMENTOS</li></a>
+            <a href="/PaginaIniciarMix.html"><li>INICIAR MIX</li></a>
+        </ul>
+
+        <div class="crm">
+            <p>CRM 123456</p>
+            <p>Dr. João José</p>
+        </div>
+
+        <img src="/imagens/imgLogout.png" alt="img logout" height="80" width="120">
+    </header>
+    <div class="direita">
+        <h1> PACIENTE: MARIA JOSÉ DE ANCHIETA </h1>
+        <br>
+        <br>
+        <div class="descricao">
+             <b class="texto-descricao"> Dipirona 25 mg ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ <button class="estoque"> </button></b> 
+            
+             <br>
+             
+            <button class="btnPreparar" value='1' type="submit" onclick="alert('mensagem')">
+                PREPARAR
+            </button>
+        </div>
+    </div>
+  
+    <nav class="menuConteiner">
+
+        <div class="esquerda">
+            <div class="busca">
+                <input type="text" placeholder="Pesquisar pacientes" id="pesquisa">
+                <a href="#" class="buscar" onclick="pesquisar()"> BUSCAR </a>
+            </div>
+            <div class="listademed"> 
+                <ul id="lista" class="lista">
+                    <li> <a class="med" href="PagIniciarMixOp1.html">Maria José de Anchieta </a> <button class="sombra1"> </button> </li>
+                    <li><a class="med" href="PagIniciarMixOp2.html">Maria Luiza Campos Lima </a> <button class="sombra2"> </button></li>
+                    <li><a class="med" href="PagIniciarMixOp3.html">José Mario da Silva </a> <button class="sombra3"> </button></li>
+                    <li><a class="med" href="PagIniciarMixOp4.html">João Roberto Machado</a> <button class="sombra4"> </button> </li>
+                    <li><a class="med" href="PagIniciarMixOp5.html">Aparecida dos Santos </a> <button class="sombra5"> </button></li>
+                    <li><a class="med" href="PagIniciarMixOp6.html">Silvio Fernandes Lima </a> <button class="sombra6"> </button></li>
+                
+                    </ul>
+                    <!-- <a href="addmed.html" class="med adicionar" id="admed"> + Adicionar </a> -->
+                </div>
+        </div>
+        
+    </nav>
+       
+ <script src="ConexArduino.js"> </script>
+</body>
+</html>
