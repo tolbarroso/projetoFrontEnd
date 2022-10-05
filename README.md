@@ -1,2 +1,0 @@
-# SWvers-ofinal
-versão final
